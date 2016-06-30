@@ -1,28 +1,20 @@
 # SneakPeek
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sneak_peek`. To experiment with that code, run `bin/console` for an interactive prompt.
+This utility let's you take a look at a remote gem's readme.
 
-TODO: Delete this and the text above, and describe your gem
+Made with <3 by [@olistik](https://olisti.co).
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'sneak_peek'
+```shell
+gem install sneak_peek
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install sneak_peek
 
 ## Usage
 
-TODO: Write usage instructions here
+```shell
+sneak_peek <gem_name> --readme
+```
 
 ## Development
 
@@ -32,5 +24,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/sneak_peek. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/olistik/sneak_peek. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
+## License
+
+GNU General Public License (GPL) version 3
+
+- [gnu.org](https://www.gnu.org/licenses/gpl-3.0.txt)
+- [repository copy](gpl-3.0.txt)
