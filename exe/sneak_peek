@@ -1,3 +1,19 @@
 #!/usr/bin/env ruby
 
 require "sneak_peek"
+
+gem_name = ARGV[0]
+command = ARGV[1]
+
+if SneakPeek::Utils.blank?(gem_name) || SneakPeek::Utils.blank?(command)
+  puts "Usage: sneak_peek <gem_name> <command>"
+  puts "\tsneak_peek <gem_name> --readme # shows the readme of the gem, if detected"
+  exit 1
+end
+
+case command
+when "--readme"
+  SneakPeek::show_readme(gem_name: gem_name)
+else
+  puts "Command #{command} is not available"
+end
